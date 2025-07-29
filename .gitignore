@@ -1,0 +1,26 @@
+# Arquivos e pastas específicas de sistema operacional
+
+.DS_Store     # Arquivo oculto criado pelo macOS em pastas — desnecessário
+Thumbs.db     # Criado pelo Windows Explorer para armazenar miniaturas de imagens
+
+# Pastas de configuração de IDEs (editors)
+
+.vscode/      # Configurações do Visual Studio Code (podem ser pessoais e variar de dev para dev)
+.idea/        # Configurações do JetBrains (como WebStorm, IntelliJ)
+
+# Arquivos temporários
+
+*.log         # Arquivos de log (por exemplo, erros gerados por ferramentas que você venha a usar)
+*.tmp         # Arquivos temporários (muitas vezes gerados por editores ou scripts)
+*.swp         # Criados automaticamente por editores como o Vim
+*.swo         # Outro tipo de backup temporário do Vim
+
+# Dependências e builds
+
+node_modules/ # Caso você use npm no futuro, essa pasta contém dependências (muito pesada e gerada automaticamente)
+dist/         # Pasta de "distribuição", gerada em processos de build (ex: SASS, Webpack, etc)
+build/        # Alternativa à dist/, depende da ferramenta usada
+
+# Arquivos de ambiente
+
+.env          # Usado para armazenar variáveis de ambiente sensíveis (como chaves de API, senhas etc)
