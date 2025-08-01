@@ -1,0 +1,16 @@
+.estadosIndex {
+    color: rgb(47, 148, 114);
+    font-size: 20px;
+}
+
+.estreia-hoje {
+    color: darkred;
+}
+
+.estreia-amanha {
+    color: darkblue;
+}
+
+.underline-rmv {
+    text-decoration: none;
+}

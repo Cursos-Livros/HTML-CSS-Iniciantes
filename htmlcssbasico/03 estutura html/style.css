@@ -20,8 +20,9 @@
  <h1 class="Teste">
  <a classe "Teste>
  logo este conjunto poderá selecionado pelo seletor teste, então tudo que tiver teste como classe
- pode ser selecionado
+ pode ser selecionado.
  
+  
 */
 a{
     color: black;
@@ -30,5 +31,28 @@ a{
 
 a{
     color: tomato;
+    font-size: 16px;
+}
+
+/* Seletor pelo identificador */
+#introducao {
+    color: gold;
+}
+
+/* Seletor por classe*/
+.codigo{
+    color: blue;
+}
+
+.azul {
+    color: blue;
+}
+
+.underline {
+    text-decoration: underline;
+    
+}
+
+.grande {
     font-size: 32px;
 }
