@@ -1,3 +1,28 @@
+/* algumas sobre Css
+ - Pode sobrescever -> antigo -> novo:
+ Tando na delcaração da folha 
+ Quanto no próprio arquivo de folha
+
+ // Quando usando os seletores , seleciona mais de um seletor
+ exemplo:
+ h1, a -> selecione os seletores h1 e a
+
+ Diferente de espaço entre os seletores que seleciona um conjunto especifico de seletores
+ Exemplo:
+ h1 a{ -> selecione toda tag a que esta contida em uma tag h1
+
+ Id - Identifica de maneira unica uma determinada tag
+ Exemplo:
+ <h1 id= "teste> agora esta tag esta pode ser usada com um seletor teste
+
+ Classe - Identifica um conjunto de de tags, pode ser usado varias vezes
+ Exemplo:
+ <h1 class="Teste">
+ <a classe "Teste>
+ logo este conjunto poderá selecionado pelo seletor teste, então tudo que tiver teste como classe
+ pode ser selecionado
+ 
+*/
 a{
     color: black;
     text-decoration: none;
