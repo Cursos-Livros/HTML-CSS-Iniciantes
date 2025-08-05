@@ -1,0 +1,11 @@
+div{
+    background: #aaa;
+    border:10px solid #111;
+    height:80px;
+    margin: 30px;
+    padding: 20px;
+    width: 130px; /* A soma de um elemento em width é borda + padding + tamanho do elemento + padding lado oposto mais a borda do lado oposto*/
+                  /* Para a soma da height seria o memso para altura*/
+                  /* Logo a altura do elemento não leva em conta a margin*/
+}
+
