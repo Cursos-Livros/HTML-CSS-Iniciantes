@@ -1,3 +1,16 @@
-h1{
-    color: seagreen;
+/* Conceito de herança
+Propriedades Css:
+Pai -> filho pai passa para o filho ou o filho herda do pai
+Padrão x Herança
+Elementos com valores padrões não herdam nada do pai
+ */
+
+h1 {
+  color: #2e8b57;
+}
+
+
+
+a {
+color: inherit; /* Elemento irá herdar o valor do elemento pai*/
 }
