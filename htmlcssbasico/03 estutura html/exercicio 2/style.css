@@ -1,0 +1,36 @@
+body {
+  font-family: 'Arial', sans-serif; 
+}
+
+.titulo{
+    text-align: center;
+}
+
+.painel{
+    background-color: #111;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+#product{
+    margin-bottom: 0%;
+    color: #fffdfd;
+}
+
+#price{
+    margin-bottom: 0%;
+    color:#febe01;
+}
+
+.descricao{
+    margin-bottom: 0%;
+    color: #fffdfd;
+}
+
+.anoKM{
+    color: #febe01;
+}
+
+.botao{
+    display: block;
+}
