@@ -1,0 +1,20 @@
+h1{
+    border:solid 1px red;
+}
+
+a, span{
+    border:solid 1px red;
+}
+
+p, span{
+    border:solid 1px red;
+}
+
+div{
+     border:solid 1px red;
+}
+
+a{
+    display:inline-block;
+    padding: 20px;
+}
