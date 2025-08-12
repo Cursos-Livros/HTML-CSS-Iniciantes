@@ -1,0 +1,7 @@
+img{
+    max-width: 100%; /* Não fica maior que o container que a segura*/
+}
+
+div{
+    width: 200px;
+}
